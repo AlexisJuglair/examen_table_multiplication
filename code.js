@@ -37,7 +37,6 @@ function faireTableau(titre, tableau)
        
         while (x <= xMax) 
         { 
-
             html += "<td>"+tableau[x]+"</td>";
             x++;
         }
