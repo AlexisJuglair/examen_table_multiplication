@@ -67,7 +67,7 @@ function init()
                 calcul[y] = [];   
                 calcul[y][x] = new Calcul(y, x);
                 additions.push(calcul[y][x].calculerAddition());
-                multiplications.push(calcul[y][x].calculerAddition());
+                multiplications.push(calcul[y][x].calculerMultiplication());
                 x++;
             }
             else 
