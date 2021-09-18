@@ -33,8 +33,7 @@ function faireTableau(titre, tableau)
 
     for (let y = 1; y <= 10; y++) 
     {
-        html += "<tr>"; 
-       
+        html += "<tr>";       
         while (x <= xMax) 
         { 
             html += "<td>"+tableau[x]+"</td>";
